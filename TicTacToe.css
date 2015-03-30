@@ -1,0 +1,38 @@
+body {} h1 {
+    text-align: center;
+}
+#board {
+    width: 31em;
+    position: relative;
+    top: 30px;
+    left: 25%;
+    overflow: hidden;
+}
+.box {
+    width: 10em;
+    height: 10em;
+    border: 1px solid black;
+    display: inline-block;
+    margin-bottom: 4px;
+    border-radius: 25px;
+    float: left;
+}
+.box:hover {
+    border-color: red;
+    background-color: LightBlue;
+}
+.markedX {
+    background-color: orange;
+    font-family: Herculanum;
+}
+.markedO {
+    background-color: red;
+    font-family: Herculanum;
+}
+p {
+    font-size: 60px;
+    text-align: center;
+}
+button#reset {
+    position: relative;
+}
